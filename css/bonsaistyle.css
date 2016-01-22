@@ -1,0 +1,244 @@
+*{
+    font-family: "Open-Sans", sans-serif;
+}
+
+/*Head banner*/
+header {
+    width: 100%;
+    height: 604px;
+    background: url(../images/payments-banner-graphic-0ed86aff94ffaa542f52873152b24832.png) center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin: 0;
+    align-items: center;
+}
+
+#brandlogo, #brandname{
+    margin: 0;
+}
+
+#brandlogo {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+    
+.branding {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    padding: 16px 15px;
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.members p{
+    padding: 20px 15px;
+    margin: 0;
+}
+
+#brandname {
+    letter-spacing: 4px;
+}
+
+#headmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#headline1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+#subheadline {
+    font-size: 23px;
+    margin-bottom: 35px;
+}
+
+#accountbtn {
+    height: 45px;
+    width: 320px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#cta1 {
+    color:#8080BE;
+    margin: 0px;
+}
+
+/*Section 1*/
+
+#section1 {
+    display: flex;
+    flex-direction: row;
+/*    align-items: center;*/
+    justify-content: center;
+}
+
+#contents1 {
+    height: 151px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.smfeats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.icon {
+    height: 65px;
+    width: 65px;
+    margin-bottom: 12px;
+}
+
+
+.iconfeat {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.icontext {
+    font-size: 14px;
+    color: #6D6D6D;
+}
+
+/*
+#quick {
+    justify-content: flex-end;
+}
+
+#secure {
+    align-content: flex-start;
+}
+*/
+
+
+#beautiful {
+    border-left: 2px solid #DDDDDD;
+    border-right: 2px solid #DDDDDD;
+}
+
+.sect12 {
+    width: 100%;
+    height: 312px;
+}
+
+#section2 {
+    border-top: 1px solid #DDDDDD;
+    background-color: #F6F9FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section2 h2 {
+    color: #777777;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#invoicing {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#conetents2 div {
+    display: flex;
+    flex-direction: row;    
+}
+
+#contents2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#section3 {
+    height: 91px;
+    width: 100%;
+    background-color: #4C535C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.cube {
+    width: 50%;
+    height: 492px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.imagepanelblue {
+    background-color: #7CD5EF;
+}
+
+#section4 {
+    display: inline-flex;
+}
+
+.graphics {
+    height: 508px;
+    width: 512px;
+    margin-top: 80px;
+}
+
+.imagepanel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textpanel {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    
+}
